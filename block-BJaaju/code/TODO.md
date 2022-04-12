@@ -1,4 +1,5 @@
 # Image Search App
+<!-- .... -->
 
 Create a application with the following features:
 
