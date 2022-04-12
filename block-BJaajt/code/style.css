@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    background-color: rgb(219, 171, 183);
+    background-color: rgb(244, 205, 215);
 }
 ol, ul {
 	list-style: none;
@@ -64,7 +64,7 @@ table {
     border: 2px solid black;
     padding: 8px 00;
     border-radius: 4px;
-    margin-left: 615px;
+    margin-left: 40%;
     margin-top: 20px;
 }
 .main-div
@@ -87,10 +87,72 @@ table {
     height: 150px;
     width: 150px;
 }
+
+.image-members
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 00 5px;
+    border: 1px solid black;
+}
+.image-cat
+{
+    height: 300px;
+    width: 200px;
+    border-radius: 4px;
+}
+
+
 .hello
 {
     color: black;
     font-size: 26px;
     text-align: center;
     margin: 10px 00;
+}
+
+.h2
+{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+}
+.followers,.following
+{
+    padding: 16px 00;
+    display: flex;
+    align-items: center;
+    margin-left: 34%;
+}
+.cat-div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.cat-h
+{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(19, 18, 18);
+    margin-bottom: 15px;
+
+    
+}
+.buttonn
+{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+.cat-section
+{
+    margin-top: 150px;
+}
+hr
+{
+border-top: 3px solid black;
 }
